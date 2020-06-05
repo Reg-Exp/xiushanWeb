@@ -1,0 +1,158 @@
+
+
+.image-list{
+    background:#fff;
+    padding:30px 20px 60px;
+    box-sizing:border-box;
+    margin-bottom:40px;
+}
+
+.image-header{
+    position:relative;
+    margin-bottom:30px;
+}
+.image-header-nav{
+    position:absolute;
+    right:0;
+    top:0;
+}
+.image-header-nav img{
+    display:block;
+    width:12px;
+    height:15px;
+    margin-right:13px;
+    float:left;
+}
+.image-header-nav ul{
+    float:left;
+}
+
+.image-header-nav ul li{
+    float:left;
+    font-size:14px;
+    line-height:15px;
+    color:#666;
+    margin-right:4px;
+}
+.image-header-nav ul li a{
+    display:inline-block;
+    margin-right:4px;
+    font-size:14px;
+    line-height:15px;
+    color:#666;
+}
+.image-content-left{
+    float:left;
+    width:823px;
+    margin-right:30px;
+}
+.image-content-list{
+    margin-bottom:30px;
+}
+
+.news-item{
+    border-bottom:1px solid #DCDCDC;
+    padding:30px 0 15px;
+}
+
+.news-item-title{
+    margin-bottom:16px;
+    font-size:20px;
+    line-height:20px;
+    color:#282828;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.news-item-content{
+    display:flex;
+}
+.news-item-content img{
+    display:block;
+    flex-shrink:0;
+    width:138px;
+    height:80px;
+    margin-right:13px;
+}
+
+.news-content{
+    flex-grow:1;
+    font-size:14px;
+    line-height:26px;
+    color:#8e8e8e;
+}
+.news-text{
+    margin-bottom:12px;
+}
+
+
+
+.xiushan-sidebar{
+    float:left;
+    width:305px;
+}
+.sidebar-header{
+    width:100%;
+    height:228px;
+    margin-bottom:33px;
+}
+.xiushan-recommend-list{
+    margin-top:20px;
+    padding-bottom:6px;
+}
+
+.xiushan-recommend-list li{
+    float:left;
+    margin-right:16px;
+    margin-bottom:26px;
+    width:144px;
+    height:100px;
+}
+
+.xiushan-recommend-list li:nth-child(2n){
+    margin-right:0;
+}
+
+.xiushan-recommend-list li a img{
+    display:block;
+    width:100%;
+    height:100%;
+    margin-bottom:10px;
+}
+
+.xiushan-recommend-list li a span{
+    display:block;
+    font-size:14px;
+    line-height:14px;
+    color:#545454;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    text-align:center;
+
+}
+
+.xiushan-rank-item{
+    border-bottom:1px solid #ECECEC;
+}
+.xiushan-rank-item a{
+    font-size:14px;
+    line-height:40px;
+    color:#444;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.xiushan-rank-item a span{
+    display:inline-block;
+    width:17px;
+    height:17px;
+    border-radius:17px;
+    font-size:14px;
+    line-height:17px;
+    text-align:center;
+    color:#f5f5f5;
+    background:#b80c0b;
+    margin-right:10px;
+}
+

@@ -1,0 +1,151 @@
+.job-list{
+    padding:45px 20px 60px;
+    box-sizing:border-box;
+    background:#fff;
+    margin:36px auto;
+}
+
+.job-list-header{
+    border:1px solid #DADADA;
+    margin-bottom:15px;
+    height:105px;
+}
+.job-item{
+    border-right:1px solid #DADADA;
+    height:100%;
+    float:left;
+    padding-left:25px;
+    box-sizing:border-box;
+}
+.job-item:first-child{
+    width:287px;
+
+}
+.job-item:nth-child(2){
+    width:256px;
+
+}
+.job-item:nth-child(3){
+    width:256px;
+
+}
+.job-item:nth-child(4){
+    width:250px;
+    border-right:none;
+
+}
+.job-item input{
+    border:none;
+    font-size:14px;
+    line-height:14px;
+    color:#c7c7c7;
+}
+
+.job-item select{
+    border:none;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    font-size:14px;
+    line-height:14px;
+    color:#c7c7c7;
+}
+.job-title{
+    margin:32px 0 19px;
+    font-size:16px;
+    line-height:16px;
+    color:#333;
+
+}
+
+.search{
+    width:86px;
+    height:47px;
+    font-size:18px;
+    line-height:47px;
+    color:#fff;
+    text-align:center;
+    background:#e00013;
+    float:left;
+    margin-top:30px;
+}
+
+.job-list-panel{
+    margin-bottom:54px;
+}
+
+.job-panel-header{
+    background:#fafafa;
+    border-bottom:1px solid #dadada;
+    padding-left:27px;
+}
+
+.job-panel-item{
+    float:left;
+    font-size:14px;
+    line-height:44px;
+    color:#333;
+
+}
+
+.job-panel-item:first-child{
+    width:274px;
+}
+.job-panel-item:nth-child(2){
+    width:340px;
+}
+.job-panel-item:nth-child(3){
+    width:144px;
+}
+.job-panel-item:nth-child(4){
+    width:144px;
+}
+.job-panel-item:nth-child(5){
+    width:116px;
+}
+.job-panel-item:nth-child(6){
+    width:114px;
+}
+
+.job-contianer-item{
+    border-bottom:1px solid #dadada;
+    padding:20px 0 20px 27px;
+}
+
+.job-item-info{
+    font-size:14px;
+    line-height:14px;
+}
+
+
+.job-item-info:hover li:nth-child(2){
+    color:#E00013;
+}
+.job-item-info li{
+    float:left;
+}
+.job-item-info li:first-child{
+    width:274px;
+    color:#444;
+}
+.job-item-info li:nth-child(2){
+    width:340px;
+    color:#444;
+}
+.job-item-info li:nth-child(3){
+    width:144px;
+    color:#808080;
+}
+.job-item-info li:nth-child(4){
+    width:144px;
+    color:#444;
+}
+.job-item-info li:nth-child(5){
+    width:116px;
+    color:#E00013;
+}
+.job-item-info li:nth-child(6){
+    width:114px;
+    color:#444;
+}
+

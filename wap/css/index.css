@@ -1,0 +1,366 @@
+.index-banner{
+    padding: 0.18rem 0.15rem 0;
+    background: #f5f5f5;
+}
+
+
+.swiper-container{
+    width: 100%;
+    height: 4.67rem;
+}
+
+.swiper-slide{
+    position: relative;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+.index-banner-footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 0.52rem;
+    background: rgba(00,00,00,0.4);
+    padding: 0 0.1rem 0 0.17rem;
+    box-sizing: border-box;
+}
+
+.index-banner-text{
+    font-size: 0.2rem;
+    line-height: 0.52rem;
+    color: #fff;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.index-banner-number{
+    font-size: 0.2rem;
+    line-height: 0.36rem;
+    color:#fff ;
+}
+
+.index-banner-number span{
+    color: #B80C0B;
+    font-size: 0.36rem;
+}
+
+.index-banner-advertising{
+    padding: 0.1rem 0;
+}
+
+.banner-advertising-top{
+    width: 100%;
+    height: 1rem;
+    margin-bottom: 0.05rem;
+}
+.banner-advertising-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-advertising-footer img{
+    width: 3.56rem;
+    height: 0.86rem;
+}
+
+.index-news{
+    padding: 0 0.15rem;
+    border-bottom: 0.2rem solid #f5f5f5;
+}
+
+.news-first{
+    padding-top: 0.4rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.news-first-title{
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    color: #333;
+    margin-bottom: 0.16rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.news-first-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:0.15rem ;
+}
+.news-first-img img{
+    width: 2.33rem;
+    height: 1.53rem;
+}
+
+.news-first-footer{
+    display: flex;
+    align-items: center;
+
+}
+
+.news-first-tips{
+    padding: 0.02rem 0.08rem;
+    font-size: 0.16rem;
+    color: #FF0100;
+    text-align: center;
+    border: 1px solid #FF0100;
+    border-radius: 0.03rem;
+    flex-shrink: 0;
+    margin-right: 0.1rem;
+}
+
+.news-first-info{
+    font-size: 0.16rem;
+    line-height: 0.16rem;
+    color:#999 ;
+}
+.news-second{
+    padding: 0.2rem 0;
+    border-bottom: 1px solid #E9E9E9;
+}
+.news-second-title{
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    clip-rule: #333;
+    margin-bottom: 0.2rem;
+}
+
+.news-third{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.news-third-content{
+    width: 4.7rem;
+
+}
+.news-third-title{
+    font-size: 0.22rem;
+    line-break: 0.36rem;
+    color: #333;
+    height: 1.08rem;
+    overflow: hidden;
+}
+
+.news-third img{
+    width: 2.33rem;
+    height: 1.53rem;
+}
+
+.news-more{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.news-more a{
+    display: block;
+    width: 1.95rem;
+    height: 0.54rem;
+    font-size: 0.2rem;
+    line-height: 0.54rem;
+    box-sizing: border-box;
+    color: #777;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 0.54rem;
+}
+
+.index-video{
+    padding: 0 0.15rem;
+}
+
+.index-video-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.index-video-item{
+    width: 3.42rem;
+    margin-top: 0.3rem;
+}
+.index-video-image{
+    margin-bottom: 0.16rem;
+    position: relative;
+}
+.index-video-image img{
+    width: 100%;
+    height: 2.25rem;
+}
+.index-video-tips{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.52rem;
+    height: 0.31rem;
+    font-size: 0.18rem;
+    line-height: 0.31rem;
+    color: #fff;
+    text-align: center;
+    background: #FF0000;
+}
+.blue-tips{
+    background: #0084FF;
+}
+.index-video-title{
+    margin-bottom: 0.16rem;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    color: #333;
+}
+
+.index-video-subtitle{
+    font-size: 0.16rem;
+    line-height: 0.16rem;
+    color: #999;
+}
+
+
+.advertising-panel{
+    background: #f5f5f5;
+    padding: 0 0.15rem;
+}
+
+.index-recruit{
+    padding: 0 0.15rem;
+    border-bottom: 0.2rem solid #f5f5f5;
+}
+.index-recruit-item{
+    padding:0.24rem 0 0.2rem;
+    border-bottom: 1px solid #DCDCDC;
+}
+.index-recruit-title{
+    margin-bottom: 0.26rem;
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.index-recruit-footer{
+    display: flex;
+    align-items: center;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+}
+
+.index-recruit-job{
+    width: 2rem;
+    margin-right: 0.6rem;
+    color: #333;
+}
+
+.index-recruit-address{
+    width: 1.3rem;
+    margin-right: 0.3rem;
+    color: #999;
+}
+
+.index-recruit-number{
+    width: 0.8rem;
+    margin-right: 0.2rem;
+    color: #999;
+}
+
+.index-recruit-solary{
+    width: 1rem;
+    margin-right: 0.3rem;
+    color: #999;
+}
+.index-recruit-solary span{
+    color: #FF0000;
+}
+.index-recruit-date{
+    flex-grow: 1;
+    color: #999;
+}
+
+
+
+.index-special{
+    padding: 0 0.15rem;
+    border-bottom: 0.2rem solid #f5f5f5;
+}
+
+.index-special-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 0 0.37rem;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    height: 2.25rem;
+    white-space: nowrap;
+
+}
+.index-special-list::-webkit-scrollbar{
+    display: none;
+}
+
+.index-special-list img{
+    float: left;
+    display: block;
+    margin-right: 0.12rem;
+    width:2.88rem;
+    height: 1.58rem;
+}
+
+
+
+.index-image{
+    padding: 0 0.15rem;
+}
+
+.index-image-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 0.37rem;
+}
+
+.index-image-list .index-image-item:first-child{
+    width: 100%;
+    height: 4.73rem;
+}
+
+.index-image-item{
+    position: relative;
+    width: 3.5rem;
+    height: 2.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.index-image-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.index-image-tips{
+    background: rgba(00,00,00,0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.2rem;
+    line-height: 0.45rem;
+    color: #fff;
+    text-align: center;
+}

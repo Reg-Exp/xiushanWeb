@@ -1,0 +1,254 @@
+.job{
+    margin-top:36px;
+    background:#fff;
+    box-sizing:border-box;
+    padding:30px 20px 60px;
+    margin-bottom:30px ;
+}
+
+.job-header{
+    padding-bottom:20px;
+    border-bottom:1px solid #DCDCDC;
+}
+
+.job-title-container{
+    float:left;
+
+}
+.job-title{
+    font-size:24px;
+    font-weight:bold;
+    line-height:24px;
+    color:#333;
+    margin-bottom:16px;
+}
+
+.job-time{
+    font-size:14px;
+    line-height:14px;
+    color:#8F8F8F;
+}
+
+.job-apply{
+    float:right;
+    width:297px;
+    height:56px;
+    text-align:center;
+    font-size:0;
+    background:#e00013;
+}
+.job-apply img,
+.job-apply span{
+    display:inline-block;
+    vertical-align:middle;
+}
+.job-apply img{
+    width:19px;
+    height:24px;
+    margin-right:20px;
+}
+.job-apply span{
+    font-size:20px;
+    line-height:56px;
+    color:#fff;
+}
+.job-container{
+    padding:40px 0;
+}
+.job-left{
+    float:left;
+    width:825px;
+    margin-right:40px;
+}
+.job-item{
+    float:left;
+    width:50%;
+    font-size:14px;
+    line-height:22px;
+    color:#8F8F8F;
+    margin-bottom:30px;
+}
+.job-item span{
+    color:#666666;
+
+}
+.job-item img{
+    display:inline-block;
+    width:77px;
+    height:22px;
+    vertical-align:middle;
+}
+.job-item-price{
+    color:#FF0000 !important;
+}
+
+.job-phone{
+    margin-bottom:30px;
+}
+.job-phone-title{
+    float:left;
+    font-size:14px;
+    line-height:18px;
+    color:#8F8F8F;
+}
+.job-phone-text{
+    float:left;
+    font-size:0;
+    line-height:18px;
+    color:#333;
+    height:18px;
+}
+.job-phone-text span{
+    font-size:14px;
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:4px;
+}
+.job-phone-text .job-phone-number{
+    font-size:18px !important;
+    color:#FF0000 !important;
+}
+
+.job-list-item{
+    font-size:14px;
+    line-height:24px;
+    color:#333333;
+    margin-bottom:17px;
+}
+
+.job-list{
+    padding-top:27px;
+}
+
+.job-list:last-child{
+    display:none;
+}
+
+.job-right{
+    float:left;
+    width:295px;
+}
+
+.job-company{
+    box-sizing:border-box;
+    padding:26px 25px 17px;
+    border:1px solid #DCDCDC;
+    margin-bottom:20px;
+}
+
+.job-company-header{
+    font-size:20px;
+    line-height:20px;
+    color:#333;
+    padding-bottom:16px;
+    border-bottom:1px solid #DCDCDC;
+    margin-bottom:23px;
+}
+.job-company-panel{
+    margin-bottom:20px;
+}
+.company-panel-image{
+    float:left;
+    margin-right:16px;
+    padding:5px 7px;
+    width:72px;
+    height:72px;
+    box-sizing:border-box;
+    border:1px solid #DCDCDC;
+}
+.company-panel-image img{
+    width:100%;
+    height:100%;
+}
+
+.job-company-title{
+    float:left;
+    width:155px;
+    font-size:16px;
+    line-height:26px;
+    color:#333;
+}
+
+.job-company-list{
+    margin-bottom:16px;
+}
+.job-company-list img{
+    float:left;
+    width:14px;
+    margin-right:14px;
+}
+.job-company-item {
+    float:left;
+    font-size:14px;
+    line-height:14px;
+    color:#8f8f8f;
+}
+
+.job-company-item span{
+    color:#333;
+}
+
+.job-company-footer{
+    padding-top:16px;
+    text-align:center;
+    border-top:1px solid #DCDCDC;
+    font-size:0;
+}
+
+.job-company-footer img,
+.job-company-footer span{
+    display:inline-block;
+    vertical-align:middle;
+}
+.job-company-footer img{
+    width:16px;
+    height:16px;
+    margin-right:16px;
+}
+.job-company-footer span{
+    font-size:14px;
+    line-height:14px;
+    color:#333;
+}
+
+.job-about{
+    box-sizing:border-box;
+    padding:26px 25px 17px;
+    border:1px solid #DCDCDC;
+}
+.job-about-item{
+    margin-bottom:20px;
+    border-bottom:1px solid #DCDCDC;
+}
+.job-about-title{
+    font-size:14px;
+    line-height:14px;
+    color:#333;
+    margin-bottom:18px;
+}
+
+.job-about-subtitle{
+    font-size:14px;
+    line-height:14px;
+    color:#8B8B8B;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    margin-bottom:18px;
+}
+
+.job-about-footer{
+    margin-bottom:20px;
+}
+.job-about-price{
+    float:left;
+    font-size:14px;
+    line-height:14px;
+    color:#FF0015;
+}
+.job-about-address{
+    float:right;
+    font-size:12px;
+    line-height:14px;
+    color:#7E7E7E;
+}

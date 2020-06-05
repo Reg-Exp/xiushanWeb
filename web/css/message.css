@@ -1,0 +1,257 @@
+.message{
+    background: #fff;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.message-left{
+    float: left;
+    width: 820px;
+    margin-right: 35px;
+}
+.message-nav{
+    margin: 50px 0;
+    padding-left: 45px;
+}
+
+.message-nav-item{
+    float: left;
+    width: 146px;
+    height: 90px;
+    margin-right: 60px;
+    border: 1px solid #E3E3E3;
+}
+.message-nav-item:last-child{
+    margin-right: 0;
+}
+.message-nav-item img{
+    max-width: 36px;
+    max-width: 30px;
+    margin: 10px auto;
+}
+.message-nav-item span{
+    display: block;
+    font-size: 20px;
+    line-height: 20px;
+    color: #8A8A8A;
+    text-align: center;
+}
+
+.message-nav-item:first-child{
+    background: #B80C0B;
+}
+.message-nav-item:first-child span{
+    color: #fff;
+}
+.message-title{
+    margin-bottom: 30px;
+}
+.message-title span{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+
+.message-title input{
+    display: inline-block;
+    border: 1px solid #E6E6E6;
+    height: 43px;
+    box-sizing: border-box;
+    width: 770px;
+    vertical-align: middle;
+}
+
+
+.message-info-item{
+    float: left;
+    margin-right: 74px;
+    margin-bottom: 30px;
+}
+.message-info-item:last-child{
+    margin-right: 0;
+}
+
+.message-info-item span{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+
+.message-info-item input{
+    display: inline-block;
+    border: 1px solid #E6E6E6;
+    height: 43px;
+    box-sizing: border-box;
+    width: 330px;
+    vertical-align: middle;
+}
+.message-info-phone{
+    float: left;
+}
+.message-info-phone span{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: middle;
+}
+
+.phone-panel{
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #E6E6E6;
+    height: 43px;
+    box-sizing: border-box;
+    width: 330px;
+}
+.phone-panel input{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    border: none;
+    width: 240px;
+}
+.phone-panel button{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    border: none;
+     font-size: 14px;
+    line-height: 14px;
+    color: #999;
+    background: none;
+    width: 70px;
+    padding: 0;
+}
+.message-image{
+    margin-bottom: 40px;
+}
+.message-image span{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.message-image img{
+    display: inline-block;
+    width: 77px;
+    height: 74px;
+    margin-right: 5px;
+}
+
+
+.article{
+    margin-bottom: 40px;
+}
+.article span{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.article textarea{
+    display: inline-block;
+    width: 770px;
+    height: 480px;
+
+}
+
+
+
+
+.xiushan-comment-submit{
+    float:left;
+    width:226px;
+    height:50px;
+    background:#B80C0B;
+    font-size:20px;
+    line-height:50px;
+    color:#fff;
+    text-align:center;
+}
+.xiushan-comment-operation{
+    padding-left: 37px;
+}
+.xiushan-comment-right{
+    float:right;
+    margin-top:18px;
+}
+
+.xiushan-comment-code{
+    float:left;
+}
+.xiushan-comment-code span,
+.xiushan-comment-code input{
+    display:inline-block;
+    vertical-align:middle;
+}
+.xiushan-comment-code span{
+    font-size:16px;
+    line-height:16px;
+    color:#333;
+}
+.xiushan-comment-code input{
+    font-size:16px;
+    line-height:18px;
+    color:#333;
+    border:none;
+    border-bottom:1px solid #c1c1c1;
+    width:150px;
+}
+
+.xiushan-comment-image{
+    float:left;
+    margin-left:4px;
+}
+.xiushan-comment-image span,
+.xiushan-comment-image img{
+    display:inline-block;
+    vertical-align:middle;
+}
+.xiushan-comment-image img{
+    width:80px;
+    height:22px;
+}
+.xiushan-comment-image span{
+    font-size:16px;
+    line-height:16px;
+    color:#FE0100;
+}
+
+
+.message-right{
+    float: left;
+    width: 305px;
+}
+
+
+.xiushan-rank-item{
+    border-bottom:1px solid #ECECEC;
+}
+.xiushan-rank-item a{
+    font-size:14px;
+    line-height:40px;
+    color:#444;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.xiushan-rank-item a span{
+    display:inline-block;
+    width:17px;
+    height:17px;
+    border-radius:17px;
+    font-size:14px;
+    line-height:17px;
+    text-align:center;
+    color:#f5f5f5;
+    background:#b80c0b;
+    margin-right:10px;
+}
+

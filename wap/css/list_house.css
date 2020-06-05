@@ -1,0 +1,64 @@
+.house{
+    padding: 0 0.15rem;
+}
+.house-list{
+    padding-top:0.37rem ;
+
+}
+
+.house-item{
+    display: block;
+    margin-bottom: 0.28rem;
+    display: flex;
+    align-items: center;
+}
+
+.house-item-image{
+    width: 2.3rem;
+    height: 1.44rem;
+    margin-right: 0.18rem;
+}
+
+.house-item-panel{
+    flex-grow: 1;
+}
+
+.house-item-title{
+    font-size: 0.22rem;
+    line-height: 0.22rem;
+    color: #333;
+    margin-bottom: 0.2rem;
+}
+
+.house-item-title span{
+    color: #FE0000;
+}
+
+.house-item-time{
+    display: flex;
+    align-items: center;
+    font-size:0.16rem ;
+    line-height: 0.16rem;
+    color: #999;
+    margin-bottom: 0.2rem;
+
+}
+
+.house-item-time img{
+    width: 0.16rem;
+    margin-right: 0.1rem;
+}
+
+.house-item-footer{
+    font-size: 0.16rem;
+    line-height: 0.24rem;
+    color: #999;
+
+}
+.house-item-footer span{
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #FF0000;
+    margin-right: 0.14rem;
+
+}

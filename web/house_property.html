@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>房产信息</title>
+  <link href="css/common.css" rel="stylesheet">
+  <link href="css/house_property.css" rel="stylesheet">
+  <link href="css/swiper.min.css" rel="stylesheet">
+</head>
+<body>
+<!--公共导航-->
+		<header class="public-header">
+			<div class="public-container clearfloat">
+				<!--<div class="public-logo">
+					<img alt="" src="image/public-logo.png">
+				</div>-->
+				<nav class="public-nav clearfloat">
+					<a class="public-nav-index" href="index.html">
+          <img src="image/index-home.png"></img>
+          <span>首页</span>
+        </a>
+					<ul class="public-nav-container clearfloat">
+						<li class="public-nav-item">
+							<div class="nav-item-title">新闻 <img class="public-nav-arrow" src="image/public-nav-arrow.png"></div>
+							<ul class="nav-item-sub">
+								<li class="submenu-item"><a href="">秀山要闻</a></li>
+								<li class="submenu-item"><a href="">乡镇部门</a></li>
+								<li class="submenu-item"><a href="">今日热点</a></li>
+								<li class="submenu-item"><a href="">生活·百态</a></li>
+								<li class="submenu-item"><a href="">重庆</a></li>
+								<li class="submenu-item"><a href="">国内</a></li>
+								<li class="submenu-item"><a href="">国际</a></li>
+							</ul>
+						</li>
+						<li class="public-nav-item">
+							<div class="nav-item-title">政务 <img class="public-nav-arrow" src="image/public-nav-arrow.png"> </div>
+							<ul class="nav-item-sub">
+								<li class="submenu-item"><a href="">秀山要闻</a></li>
+								<li class="submenu-item"><a href="">乡镇部门</a></li>
+								<li class="submenu-item"><a href="">今日热点</a></li>
+								<li class="submenu-item"><a href="">生活·百态</a></li>
+								<li class="submenu-item"><a href="">重庆</a></li>
+								<li class="submenu-item"><a href="">国内</a></li>
+								<li class="submenu-item"><a href="">国际</a></li>
+							</ul>
+						</li>
+						<li class="public-nav-item">
+							<div class="nav-item-title">部门</div>
+						</li>
+						<li class="public-nav-item">
+							<div class="nav-item-title">乡镇</div>
+						</li>
+						<li class="public-nav-item">
+							<div class="nav-item-title">视频 <img class="public-nav-arrow" src="image/public-nav-arrow.png"></div>
+							<ul class="nav-item-sub">
+								<li class="submenu-item"><a href="">秀山要闻</a></li>
+								<li class="submenu-item"><a href="">乡镇部门</a></li>
+								<li class="submenu-item"><a href="">今日热点</a></li>
+								<li class="submenu-item"><a href="">生活·百态</a></li>
+								<li class="submenu-item"><a href="">重庆</a></li>
+								<li class="submenu-item"><a href="">国内</a></li>
+								<li class="submenu-item"><a href="">国际</a></li>
+							</ul>
+						</li>
+						<li class="public-nav-item">
+							<div class="nav-item-title">招聘</div>
+						</li>
+						<li class="public-nav-item">
+							<div class="nav-item-title">房产</div>
+						</li>
+						<li class="public-nav-item">
+							<div class="nav-item-title">商讯<img class="public-nav-arrow" src="image/public-nav-arrow.png"></div>
+							<ul class="nav-item-sub">
+								<li class="submenu-item"><a href="">秀山要闻</a></li>
+								<li class="submenu-item"><a href="">乡镇部门</a></li>
+								<li class="submenu-item"><a href="">今日热点</a></li>
+								<li class="submenu-item"><a href="">生活·百态</a></li>
+								<li class="submenu-item"><a href="">重庆</a></li>
+								<li class="submenu-item"><a href="">国内</a></li>
+								<li class="submenu-item"><a href="">国际</a></li>
+							</ul>
+						</li>
+						<li class="public-nav-item">
+							<div class="nav-item-title">专题</div>
+						</li>
+						<li class="public-nav-item">
+							<div class="nav-item-title">图库</div>
+						</li>
+
+					</ul>
+				</nav>
+
+				<div class="public-header-operation">
+					<div class="operation-panel">
+						<div class="operation-image-container">
+							<img alt="" src="image/public-search.png">
+						</div>
+						<div class="operation-container">
+
+						</div>
+					</div>
+					<div class="operation-panel">
+						<div class="operation-image-container">
+							<img alt="" src="image/public-app.png">
+						</div>
+						<div class="operation-container">
+							<div class="qr-panel">
+								<img alt="" src="image/footer-qr1.png">
+								<span>翠翠秀山APP</span>
+							</div>
+						</div>
+					</div>
+					<div class="operation-panel">
+						<div class="operation-image-container">
+							<img alt="" src="image/public-wx.png">
+						</div>
+						<div class="operation-container">
+							<div class="qr-panel">
+								<img alt="" src="image/footer-qr1.png">
+								<span>翠翠秀山APP</span>
+							</div>
+						</div>
+					</div>
+					<div class="operation-panel">
+						<div class="operation-image-container">
+							<img alt="" src="image/public-sina.png">
+						</div>
+						<div class="operation-container">
+							<div class="qr-panel">
+								<img alt="" src="image/footer-qr1.png">
+								<span>翠翠秀山APP</span>
+							</div>
+						</div>
+					</div>
+					<div class="operation-panel">
+						<div class="operation-image-container">
+							<img alt="" src="image/public-xiushan.png">
+						</div>
+						<div class="operation-container">
+							<div class="qr-panel">
+								<img alt="" src="image/footer-qr1.png">
+								<span>翠翠秀山APP</span>
+							</div>
+						</div>
+					</div>
+					<div class="operation-panel">
+						<div class="operation-image-container">
+							<img alt="" src="image/public-login.png">
+						</div>
+						<div class="operation-container">
+							<div class="operation-login">
+								<input class="operation-login-info" placeholder="账号" type="text">
+								<input class="operation-login-info" placeholder="登录" type="password">
+								<div class="operation-box clearfloat">
+									<div class="operation-next">
+										<input class="operation-login-check" type="checkbox">
+										<span>下次自动登录</span>
+									</div>
+									<a class="operation-forget" href="">
+										忘记密码
+									</a>
+								</div>
+								<div class="operation-login-panel clearfloat">
+									<button>登录</button>
+									<a class="operation-register" href="">立即注册</a>
+								</div>
+								<div class="operation-cooperation">
+									<div class="operation-cooperation-title">
+										使用合作网站账号登录
+									</div>
+									<div class="operation-cooperation-panel clearfloat">
+										<img alt="" src="image/cooperation-1.png">
+										<img alt="" src="image/cooperation-2.png">
+										<img alt="" src="image/cooperation-3.png">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</header>
+<!--公共导航 -end- -->
+
+<!--页面二级导航-->
+<section class="nav-sub">
+  <div class="public-container clearfloat">
+    	<div class="sub-logo">
+        <img alt="" src="image/public-logo.png">
+        <span>·房产</span>
+				</div>
+    <ul class="nav-sub-list clearfloat">
+      <li class="nav-sub-item">
+        <a href="">便民服务</a>
+      </li>
+      <li class="nav-sub-item">
+        <a href="">房产信息</a>
+      </li>
+      <li class="nav-sub-item">
+        <a href="">求职招聘</a>
+      </li>
+    </ul>
+  </div>
+</section>
+<!--页面二级导航 -end- -->
+
+<!--出租信息-->
+<section class="house-panel public-container">
+  <div class="house-header clearfloat">
+    <div class="house-swiper">
+          <div class="swiper-container gallery-top">
+    <div class="swiper-wrapper">
+       <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+        <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+       <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+       <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+       <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+       <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+       <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+    </div>
+            <!-- Add Arrows -->
+  </div>
+  <div class="swiper-container gallery-thumbs">
+    <div class="swiper-button-next swiper-button-white"></div>
+    <div class="swiper-button-prev swiper-button-white"></div>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+      <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+       <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+       <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+       <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+       <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+       <div class="swiper-slide"><img alt="" src="image/index-banner.png"></div>
+    </div>
+  </div>
+    </div>
+    <div class="house-info">
+      <div class="house-info-header">
+         <div class="house-title">
+        <span>【出租】</span>
+        十字街东东副食斜对面
+      </div>
+        <div class="house-subtitle">
+          发布日期：2020.04.07 12:30
+        </div>
+      </div>
+     <ul class="house-info-list">
+       <li class="house-info-item clearfloat">
+         <div class="house-item-title">
+           房屋户型：
+         </div>
+        <div class="house-item-content">
+          1室 - 20㎡
+        </div>
+       </li>
+      <li class="house-info-item clearfloat">
+         <div class="house-item-title">
+           所在楼层：
+         </div>
+        <div class="house-item-content">
+          1室 - 20㎡
+        </div>
+       </li>
+       <li class="house-info-item clearfloat">
+         <div class="house-item-title">
+           房屋概况：
+         </div>
+        <div class="house-item-content">
+          1室 - 20㎡
+        </div>
+       </li>
+        <li class="house-info-item clearfloat">
+         <div class="house-item-title">
+           所在地址：
+         </div>
+        <div class="house-item-content">
+          1室 - 20㎡
+        </div>
+       </li>
+         <li class="house-info-item clearfloat">
+         <div class="house-item-title">
+           联系人：
+         </div>
+        <div class="house-item-content">
+          1室 - 20㎡
+        </div>
+       </li>
+        <li class="house-info-item clearfloat">
+         <div class="house-item-title">
+           价格：
+         </div>
+        <div class="house-item-content">
+           <span>1000元</span>/月
+        </div>
+       </li>
+     </ul>
+      <div class="house-info-footer clearfloat">
+        <div class="house-footer-left">
+          <div class="house-footer-phone">
+            咨询电话：<span>13709497387</span>
+          </div>
+          <div class="house-footer-tips">
+            致电我们了解更多信息，安全通话隐藏真实号码
+          </div>
+          <a href="" class="house-footer-more">
+            查看同小区房源 >>
+          </a>
+        </div>
+        <div class="house-footer-right">
+          <div class="house-footer-online">
+            <img alt="" src="image/house-footer-online.png">
+            <span>在线咨询</span>
+          </div>
+          <div class="house-footer-wx">
+            <img alt="" src="image/house-footer-wx.png">
+            <span>微信扫描拨号</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="house-content clearfloat">
+     <div class="house-content-info">
+       <div class="house-content-item">
+        	<div class="public-title-container">
+									<span class="public-title active">
+										房屋特色
+									</span>
+								</div>
+         <div class="house-content-container">
+           <div class="house-content-subtitle">
+              鲁能星城外滩——打造“精致国际生活示范区”
+           </div>
+           <div class="house-content-text">
+             鲁能入渝20年，助力城市腾飞 鲁能集团是国家电网旗下全资子公司，成立于2002年，秉持“创新、共赢”理念，历经多年发展，形
+             成了以住宅地产、商业地产、文旅地产、清洁能源为主营业务的多元化企业集团。鲁能筑梦人居生活，缔造精致国际生活示范区 2
+             017年，鲁能重庆高端项目星城外滩即将正式亮相北滨路，依托城市价值高地、国际自贸区和一线江景资源。立足“五大轻奢生活体
+             系、三大主题生活社区”，打造具备城市地标感的“精致国际生活示范区”。 踞守北滨路，立体交通网络通达四海 项目东依长江、西邻
+             海尔路、金渝大道；距离江北机场约15公里、火车北站约4公里、观音桥商圈8公里，宜家家居、奥特莱斯、保利高尔夫球场等均在
+             项目周边；与在建的轻轨四号线、九号线站点无缝衔接，周边配套完善、交通便利。 业态丰富搭配国际配置，给你更奢华的生活体
+             验 鲁能星城外滩占地304亩，容积率1.15-6.6，总建筑面积约73.72万方。业态包括一线临江大平层、生态低碳科技大宅、滨江高
+             层、超高层、高端酒店、大型商业综合体等。
+           </div>
+         </div>
+       </div>
+        <div class="house-content-item">
+        	<div class="public-title-container">
+									<span class="public-title active">
+										房屋详情
+									</span>
+								</div>
+         <div class="house-content-container">
+           <div class="house-content-subtitle">
+              鲁能星城外滩——打造“精致国际生活示范区”
+           </div>
+           <div class="house-content-text">
+             鲁能入渝20年，助力城市腾飞 鲁能集团是国家电网旗下全资子公司，成立于2002年，秉持“创新、共赢”理念，历经多年发展，形
+             成了以住宅地产、商业地产、文旅地产、清洁能源为主营业务的多元化企业集团。鲁能筑梦人居生活，缔造精致国际生活示范区 2
+             017年，鲁能重庆高端项目星城外滩即将正式亮相北滨路，依托城市价值高地、国际自贸区和一线江景资源。立足“五大轻奢生活体
+             系、三大主题生活社区”，打造具备城市地标感的“精致国际生活示范区”。 踞守北滨路，立体交通网络通达四海 项目东依长江、西邻
+             海尔路、金渝大道；距离江北机场约15公里、火车北站约4公里、观音桥商圈8公里，宜家家居、奥特莱斯、保利高尔夫球场等均在
+             项目周边；与在建的轻轨四号线、九号线站点无缝衔接，周边配套完善、交通便利。 业态丰富搭配国际配置，给你更奢华的生活体
+             验 鲁能星城外滩占地304亩，容积率1.15-6.6，总建筑面积约73.72万方。业态包括一线临江大平层、生态低碳科技大宅、滨江高
+             层、超高层、高端酒店、大型商业综合体等。
+           </div>
+         </div>
+       </div>
+     </div>
+    <div class="house-sidebar">
+      <div class="public-title-container">
+									<span class="public-title active">
+										最新房源
+									</span>
+      </div>
+      <div class="sidebar-list">
+        <a href="" class="sidebar-item clearfloat">
+          <div class="sidebar-item-image">
+               <img src="image/index-banner.png" alt="">
+            <div class="sidebar-image-tips">
+              出租
+            </div>
+          </div>
+          <div class="sidebar-item-panel">
+            <div class="sidebar-title">
+              阳光大院附近自建房
+            </div>
+            <div class="sidebar-size">
+              2室1厅1卫
+            </div>
+            <div class="sidebar-price">
+              600.00 元/月
+            </div>
+            <div class="sidebar-address">
+              秀山县白沙大道中段廷昌四
+            </div>
+          </div>
+        </a>
+        <a href="" class="sidebar-item clearfloat">
+          <div class="sidebar-item-image">
+               <img src="image/index-banner.png" alt="">
+            <div class="sidebar-image-tips">
+              出租
+            </div>
+          </div>
+          <div class="sidebar-item-panel">
+            <div class="sidebar-title">
+              阳光大院附近自建房
+            </div>
+            <div class="sidebar-size">
+              2室1厅1卫
+            </div>
+            <div class="sidebar-price">
+              600.00 元/月
+            </div>
+            <div class="sidebar-address">
+              秀山县白沙大道中段廷昌四
+            </div>
+          </div>
+        </a>
+        <a href="" class="sidebar-item clearfloat">
+          <div class="sidebar-item-image">
+               <img src="image/index-banner.png" alt="">
+            <div class="sidebar-image-tips">
+              出租
+            </div>
+          </div>
+          <div class="sidebar-item-panel">
+            <div class="sidebar-title">
+              阳光大院附近自建房
+            </div>
+            <div class="sidebar-size">
+              2室1厅1卫
+            </div>
+            <div class="sidebar-price">
+              600.00 元/月
+            </div>
+            <div class="sidebar-address">
+              秀山县白沙大道中段廷昌四
+            </div>
+          </div>
+        </a>
+        <a href="" class="sidebar-item clearfloat">
+          <div class="sidebar-item-image">
+               <img src="image/index-banner.png" alt="">
+            <div class="sidebar-image-tips">
+              出租
+            </div>
+          </div>
+          <div class="sidebar-item-panel">
+            <div class="sidebar-title">
+              阳光大院附近自建房
+            </div>
+            <div class="sidebar-size">
+              2室1厅1卫
+            </div>
+            <div class="sidebar-price">
+              600.00 元/月
+            </div>
+            <div class="sidebar-address">
+              秀山县白沙大道中段廷昌四
+            </div>
+          </div>
+        </a>
+        <a href="" class="sidebar-item clearfloat">
+          <div class="sidebar-item-image">
+               <img src="image/index-banner.png" alt="">
+            <div class="sidebar-image-tips">
+              出租
+            </div>
+          </div>
+          <div class="sidebar-item-panel">
+            <div class="sidebar-title">
+              阳光大院附近自建房
+            </div>
+            <div class="sidebar-size">
+              2室1厅1卫
+            </div>
+            <div class="sidebar-price">
+              600.00 元/月
+            </div>
+            <div class="sidebar-address">
+              秀山县白沙大道中段廷昌四
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="sidebar-footer-item">
+        <img src="image/index-banner.png" alt="">
+        <div class="sidebar-footer-tips">
+          广告
+        </div>
+      </div>
+      <div class="sidebar-footer-item">
+        <img src="image/index-banner.png" alt="">
+        <div class="sidebar-footer-tips">
+          广告
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--出租信息 -end--->
+
+<!--公共底部-->
+		<footer class="public-footer">
+			<div class="public-footer-tips">
+				<div class="public-container clearfloat">
+					<ul class="footer-nav">
+						<li class="footer-nav-item">
+							<a href=" ">网站简介 <span>/</span></a>
+						</li>
+						<li class="footer-nav-item">
+							<a href=" ">投稿须知 <span>/</span></a>
+						</li>
+						<li class="footer-nav-item">
+							<a href=" ">关于我们 <span>/</span></a>
+						</li>
+						<li class="footer-nav-item">
+							<a href=" ">联系方式</a>
+						</li>
+					</ul>
+					<div class="footer-loyal">
+						名誉法律顾问 秦飞律师事务所 苏律师 电话：18996977369
+					</div>
+				</div>
+			</div>
+			<div class="public-footer-info">
+				<div class="public-container clearfloat">
+					<ul class="footer-info-list">
+						<li class="footer-info-item">
+							中国互联网违法和不良信息举报中心
+						</li>
+						<li>
+							秀山县打击整治网上涉枪爆违法犯罪有害信息举报电话：023-76672177
+						</li>
+						<li>秀山土家族苗族自治县中和街道渝秀大道185号 联系电话：(023)76672905</li>
+						<li>
+							copyright(c)2020中共秀山县委宣传部All rights reserved渝ICP备15013147号-1
+						</li>
+					</ul>
+					<div class="public-footer-icon clearfloat">
+						<div class="footer-icon-container">
+							<img alt="" class="footer-icon-item" src="image/footer-info-item1.png">
+						</div>
+						<div class="footer-icon-container">
+							<img alt="" class="footer-icon-item" src="image/footer-info-item2.png">
+						</div>
+						<div class="footer-icon-container">
+							<img alt="" class="footer-icon-item" src="image/footer-info-item3.png">
+						</div>
+					</div>
+					<div class="public-footer-qr clearfloat">
+						<div class="footer-qr-item">
+							<img alt="" src="image/footer-qr1.png">
+							<span>秀山网微信公众号</span>
+						</div>
+						<div class="footer-qr-item">
+							<img alt="" src="image/footer-qr2.png">
+							<span>翠翠秀山APP客户端</span>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+<!--公共底部 -end- -->
+	<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/common.js"></script>
+ <script src="js/swiper.min.js"></script>
+</body>
+</html>

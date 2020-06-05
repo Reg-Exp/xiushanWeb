@@ -1,0 +1,120 @@
+.message-opeartion{
+    padding: 0.35rem 0.13rem 0.65rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.message-opeartion-item{
+    width: 1.46rem;
+    height: 0.9rem;
+    border: 1px solid #E3E3E3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-opeartion-item img{
+    width: 0.33rem;
+    margin: 0.16rem 0 0.08rem;
+}
+
+.message-opeartion-item span{
+    display: block;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #8A8A8A;
+}
+.message-info{
+    padding: 0 0.15rem;
+}
+
+.message-info-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4rem;
+    position: relative;
+}
+
+.message-info-item{
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+    color: #333;
+    margin-right: 0.1rem;
+}
+
+.message-info-item input{
+    flex-grow: 1;
+    height: 0.52rem;
+    font-size: 0.2rem;
+    line-height: 0.52rem;
+    color: #333;
+    border: 1px solid #e6e6e6;
+}
+
+.get-code{
+    position: absolute;
+    right: 0.2rem;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    font-size: 0.2rem;
+    line-height: 0.52rem;
+    color: #8f8f8f;
+}
+
+.message-info-item img{
+    width: 0.77rem;
+    height: 0.77rem;
+    margin-right: 0.1rem;
+}
+
+.message-info-item textarea{
+    flex-grow: 1;
+    height: 2.86rem;
+    font-size: 0.2rem;
+    line-height: 0.32rem;
+    color: #333;
+    border: 1px solid #e6e6e6;
+   resize: none;
+}
+
+.message-footer{
+    display: flex;
+    align-items: center;
+    padding-left: 0.6rem;
+    padding-bottom: 1rem;
+}
+
+.message-submit{
+    width: 2.8rem;
+    height: 0.5rem;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    color: #fff;
+    text-align: center;
+    background: #B80C0B;
+    margin-right: 0.4rem;
+}
+
+.message-code{
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 0.05rem;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+    color: #333;
+    width: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-right: 0.65rem;
+}
+.message-code input{
+   width: 0.8rem;
+    border: none;
+    margin-left: 0.08rem;
+}
+
+.message-codeimg{
+    width: 0.8rem;
+    height: 0.22rem;
+}

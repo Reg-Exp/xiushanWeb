@@ -1,0 +1,185 @@
+.house-info-panel{
+    border: 1px solid #ccc;
+    margin-bottom:0.7rem ;
+}
+
+.house-info-item{
+    height: 0.6rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.house-info-item:last-child{
+    border-bottom: none;
+}
+.house-item-title{
+    width: 1.45rem;
+    border-right: 1px solid #ccc;
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+    color: #A0A0A0;
+    text-align: center;
+}
+
+.house-item-content{
+    flex-grow: 1;
+    font-size: 0.24rem;
+    line-height: 06rem;
+    color: #333;
+    padding-left: 0.2rem;
+}
+
+.house-item-content span{
+    font-size: 0.3rem;
+    color: #FF0000;
+}
+.house-info{
+    padding: 0 0.15rem 0.7rem;
+    border-bottom: 0.2rem solid #f5f5f5;
+}
+.job-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.4rem 0;
+}
+
+.job-title{
+    font-size: 0.3rem;
+    font-weight: bold;
+    line-height: 0.3rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.job-time{
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+    color: #B5B5B5;
+}
+job-right{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.job-right img{
+    width: 0.72rem;
+    height: 0.56rem;
+    margin-bottom: 0.03rem;
+}
+.job-right span{
+    display: block;
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+    color: #C2C2C2;
+}
+
+.job-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:0.4rem ;
+}
+.job-footer-item {
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+.job-footer-item img{
+    width:0.18rem;
+    margin-right: 0.2rem;
+}
+.job-footer-item span{
+    color: #8F8F8F;
+    margin-right: 0.1rem;
+}
+
+
+.house-title{
+    border-bottom: 1px solid #DCDCDC;
+    display: flex;
+    align-items: center;
+
+}
+.house-title span{
+    display: block;
+
+    padding-bottom: 0.15rem;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #666;
+    margin-bottom: -1px;
+    margin-right: 0.6rem;
+}
+
+.house-active{
+    color: #333333 !important;
+    border-bottom: 1px solid #cc0000;
+}
+
+.house-panel-item{
+    font-size: 0.18rem;
+    line-height: 0.4rem;
+    color: #333;
+    padding: 0.2rem 0;
+}
+
+.house-panel-item:nth-child(2){
+    display: none;
+}
+
+.position-title{
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #333;
+    font-weight: bold;
+}
+.position-item{
+    font-size: 0.18rem;
+    line-height: 0.44rem;
+    color: #333;
+}
+
+.about{
+    padding: 0 0.15rem 0.4rem;
+}
+.about-item{
+    padding: 0.3rem 0 0.2rem;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.about-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.24rem;
+}
+
+.about-title{
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #000;
+}
+.about-salory{
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #FF0014;
+}
+.about-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-company{
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+    color: #8B8B8B;
+}
+.about-address{
+    font-size: 0.18rem;
+    line-height: 0.18rem;
+    color: #7E7E7E;
+}

@@ -1,0 +1,118 @@
+.video-header{
+    width: 100%;
+    height:720px ;
+    background: url("../image/video-bg.png") no-repeat;
+    background-size: cover;
+    padding-top: 35px;
+}
+
+.video-header video{
+    width: 100%;
+    height: 637px;
+    margin-bottom: 24px;
+}
+.live-footer-tips{
+    width: 77px;
+    height: 37px;
+    font-size:18px ;
+    line-height: 37px;
+    color: #fff;
+    text-align: center;
+    background: #B80C0B;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-right: 13px;
+    float: left;
+}
+
+.live-footer-title{
+    float: left;
+    font-size: 26px;
+    line-height: 37px;
+    color: #fff;
+}
+
+.live-list-item{
+    margin: 24px 18px 0 0;
+    width: 286px;
+    float: left;
+    background: #fff;
+}
+.live-list-item:nth-child(4n){
+    margin-right: 0;
+}
+.live-item-imagebox{
+    width: 100%;
+    height: 162px;
+    margin-bottom: 24px;
+    position: relative;
+}
+.live-item-imagebox img{
+    width: 100%;
+    height: 100%;
+}
+.imagebox-tips{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 56px;
+    height: 33px;
+    font-size: 16px;
+    line-height: 33px;
+    color: #fff;
+    text-align: center;
+    background:#B80C0B ;
+}
+.bluebg{
+    background: #009ADE;
+}
+.live-box{
+    padding: 0 20px 20px ;
+}
+.live-time{
+    margin-bottom: 23px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #666;
+}
+
+.live-time img,
+.live-time span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.live-time img{
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+}
+.live-title{
+    font-size: 16px;
+    line-height: 26px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 17px;
+    height: 70px;
+    overflow: hidden;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+}
+
+.live-subtitle{
+    font-size: 14px;
+    line-height: 26px;
+    color: #888;
+    height: 104px;
+    overflow: hidden;
+}
+
+.live-more{
+    margin: 57px auto 50px;
+    width: 150px;
+    height: 53px;
+    font-size: 16px;
+    line-height:53px ;
+    color: #fff;
+    text-align: center;
+    background: #B80C0B;
+    border-radius: 53px;
+}

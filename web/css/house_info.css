@@ -1,0 +1,191 @@
+.house_info{
+    padding:30px 20px 60px;
+    box-sizing:border-box;
+    background:#fff;
+    margin:40px auto;
+}
+.house-left{
+    float:left;
+    width:832px;
+    margin-right:30px;
+}
+.house-info-item{
+    padding:30px 0 20px;
+    border-bottom:1px solid #dadada;
+}
+.public-page{
+    margin-top:44px;
+}
+.house-info-image{
+    float:left;
+    width:150px;
+    height:103px;
+    margin-right:20px;
+}
+
+.house-info-panel{
+    float:left;
+    width:540px;
+}
+
+.house-info-title{
+    font:18px;
+    line-height:18px;
+    color:#333;
+    margin-bottom:32px;
+}
+.house-info-title span{
+    color:#FF0000;
+}
+
+.house-info-time{
+    margin-bottom:16px;
+    font-size:0;
+}
+.house-info-time img,
+.house-info-time span{
+    display:inline-block;
+    vertical-align:middle;
+}
+.house-info-time img{
+    width:16px;
+    height:16px;
+    margin-right:10px ;
+}
+.house-info-time span{
+    font-size:14px;
+    line-height:14px;
+    color:#666;
+}
+
+
+.house-info-address{
+    font-size:0;
+}
+.house-info-address img,
+.house-info-address span{
+    display:inline-block;
+    vertical-align:middle;
+}
+.house-info-address img{
+    width:14px;
+    height:16px;
+    margin-right:10px ;
+}
+.house-info-address span{
+    font-size:14px;
+    line-height:14px;
+    color:#666;
+}
+.house-info-right{
+    float:right;
+    text-align:right;
+
+}
+.house-info-price{
+    font-size:14px;
+    margin-bottom:14px;
+    line-height:20px;
+    color:#ff0000;
+}
+
+.house-info-price span{
+    font-size:20px;
+    margin-bottom:14px;
+    line-height:20px;
+    color:#ff0000;
+}
+.house-info-size{
+    font-size:14px;
+    line-height:20px;
+    color:#666;
+}
+.house-sidebar{
+    float:right;
+    width:298px;
+}
+
+.sidebar-list{
+    width:100%;
+    box-sizing:border-box;
+    border:1px solid #DCDCDC;
+    padding:16px 14px;
+    margin-top:40px;
+    margin-bottom:16px;
+}
+
+.sidebar-item{
+    margin-bottom:24px;
+}
+.sidebar-item-image{
+    float:left;
+    position:relative;
+    width:110px;
+    height:77px;
+    margin-right:16px;
+}
+.sidebar-image-tips{
+    position:absolute;
+    top:0;
+    left:0;
+    font-size:12px;
+    line-height:12px;
+    color:#fff;
+    padding:7px 9px;
+    background:rgba(00,00,00,0.8);
+}
+.sidebar-item-image img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.sidebar-item-panel{
+    float:left;
+    width:140px;
+
+}
+
+.sidebar-title{
+    font-size:14px;
+    line-height:14px;
+    color:#333;
+    margin-bottom:10px;
+}
+.sidebar-size,
+.sidebar-price{
+    margin-bottom:8px;
+}
+.sidebar-size,
+.sidebar-price,
+.sidebar-address{
+    font-size:12px;
+    line-height:12px;
+    color:#888;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+}
+
+.sidebar-footer-item{
+    margin-bottom:6px;
+    position:relative;
+    width:296px;
+    height:162px;
+}
+.sidebar-footer-item img{
+    display:block;
+    width:100%;
+    height:100%;
+}
+.sidebar-footer-tips{
+    position:absolute;
+    bottom:0;
+    right:0;
+    font-size:12px;
+    line-height:12px;
+    color:#fff;
+    padding:6px 8px;
+    border-top-left-radius:8px;
+    background:rgba(00,00,00,0.9);
+}
